@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(#ff9bd2, #fff6fa);
+  background: linear-gradient(#f776bd, #fff6fa);
   color: rgb(170, 67, 98)
 }
 
@@ -45,8 +45,8 @@ header p {
   justify-content: center;
   padding: 40px 20px;
   gap: 30px;
-  background: linear-gradient(#fffbfc, #ffc0da);
-}
+  background: linear-gradient(#ff95cf, #fff6fa);
+}#
 
 .card {
   background: rgb(241, 160, 194);
@@ -184,7 +184,7 @@ main {
   justify-content: flex-end;
   gap: 10px;
   padding: 10px 20px;
-  background: #f0f0f0;
+  background: #e9b7d4;
 }
 
 .acessibilidade button {
@@ -195,4 +195,33 @@ main {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  gap: 20px; /* espaço entre os cards */
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffe3f0;
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 16px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
