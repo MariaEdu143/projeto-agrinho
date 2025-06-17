@@ -6,8 +6,8 @@
 }
 
 body {
-  background: linear-gradient(#fcfcfc, #ffdae7);
-  color: rgb(209, 112, 128);
+  background: linear-gradient(#ff9bd2, #fff6fa);
+  color: rgb(170, 67, 98)
 }
 
 a {
@@ -18,9 +18,9 @@ a {
 header {
   text-align: center;
   padding: 40px;
-  background: #ffc5df;
-  color: white;
-  border-bottom: 10px solid #fcdcff;
+  background: #db3f85;
+  color: rgb(255, 255, 255);
+  border-bottom: 10px solid #ec6cac;
 }
 
 header h1 {
@@ -36,7 +36,7 @@ header p {
   text-align: center;
   padding: 30px;
   font-size: 1.2em;
-  background-color: #ffffff;
+  background-color: #ffd1e8;
 }
 
 .cards {
@@ -45,24 +45,24 @@ header p {
   justify-content: center;
   padding: 40px 20px;
   gap: 30px;
-  background: #f7f7f7;
+  background: linear-gradient(#fffbfc, #ffc0da);
 }
 
 .card {
-  background: white;
+  background: rgb(241, 160, 194);
   border-radius: 15px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 16px rgba(255, 83, 141, 0.15);
   width: 300px;
   text-align: center;
   padding: 20px;
   transition: all 0.3s ease;
   display: block;
-  color: #e8bef0;
+  color: #fffcfd;
 }
 
 /* Quando passa o mouse no card inteiro */
 .card:hover {
-  background-color: #ffe5ff;
+  background-color: #db4a8e;
   color: white;
 }
 
@@ -85,16 +85,16 @@ header p {
 }
 
 footer {
-  background: #3a6b35;
-  color: white;
+  background: #ffe6f9;
+  color: rgb(255, 254, 254);
   text-align: center;
   padding: 20px;
   margin-top: 40px;
 }
 .rodape-centralizado {
   position: relative;
-  background: #3a6b35;
-  color: white;
+  background: #d10e6c;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 20px 40px;
 }
@@ -117,7 +117,7 @@ footer {
   justify-content: flex-end;
   gap: 10px;
   padding: 10px 20px;
-  background: #f0f0f0;
+  background: #ffffff;
 }
 
 .acessibilidade button {
@@ -131,7 +131,7 @@ footer {
 }
 
 .acessibilidade button:hover {
-  background-color: #2e4f29;
+  background-color: #ff9eda;
 }
 .descricao h2 {
   margin-bottom: 30px;
@@ -178,4 +178,21 @@ main {
 .descricao h2 {
   margin-left: 30px;
 
+}
+.acessibilidade {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px 20px;
+  background: #f0f0f0;
+}
+
+.acessibilidade button {
+  font-size: 1em;
+  padding: 6px 12px;
+  background-color: #c5154a;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
